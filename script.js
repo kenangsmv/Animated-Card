@@ -4,13 +4,14 @@ $(document).ready(function() {
         $(this).addClass("read-more-full");
         $(this).siblings(".content").addClass("content-visible");
         $(this).find("p").css("visibility", "hidden");
-
+        console.log("gir");
         
     })
     $(".read-more").mouseleave(function () {
         $(this).removeClass("read-more-full");
         $(this).siblings(".content").removeClass("content-visible");
         $(this).find("p").css("visibility", "visible");
+        console.log("cix");
 
 
 

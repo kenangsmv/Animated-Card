@@ -48,6 +48,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 .card .read-more p{  
     color: #fff;
@@ -72,7 +73,7 @@ body {
     position: absolute;
     padding: 20px;
     z-index: 1;
-    pointer-events: 0;
+    pointer-events: none;
     opacity: 0;
     visibility: hidden;
     color: #fff;
@@ -83,6 +84,7 @@ body {
     visibility: visible !important;
     transition: all 0.2;
     transition-delay: 0.5s;
+    
 }
 .card .content h3{
     font-size: 25px;
@@ -117,5 +119,6 @@ background: linear-gradient(to right, #ffa751, #ffe259);
     right: 0 !important;
     border-radius: 0 !important;
     opacity: 0.9;
+    
     
 }
